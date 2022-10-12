@@ -1,0 +1,14 @@
+.vscode
+.project
+.DS_Store
+node_modules/
+package-lock.json
+
+cypress/screenshots
+cypress/videos
+cypress/reports/cucumber-json
+cypress/reports/cucumber-report
+runner-results
+cucumber-messages.ndjson
+multi-reporter-config.json
+cypress/parallel-weights.json

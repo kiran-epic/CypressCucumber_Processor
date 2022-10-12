@@ -1,0 +1,22 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "Automated Tests!",
+  "main": "",
+  "scripts": {
+    "cypress": "cypress run --browser chrome",
+    "cypress-open": "cypress open",
+    "cypress-report": "node cypress/reports/cucumber-html-report.js"
+  },
+  "private": true,
+  "author": "Epic",
+  "license": "ISC",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^13.0.2",
+    "@bahmutov/cypress-esbuild-preprocessor": "latest",
+    "cypress": "^10.10.0",
+    "multiple-cucumber-html-reporter": "^2.0.0",
+    "prettier": "^2.7.1",
+    "typescript": "4.8.4"
+  }
+}
